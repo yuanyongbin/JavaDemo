@@ -1,0 +1,39 @@
+/*
+	修饰符
+		权限修饰符：private 默认 protected public
+		状态修饰符：static final
+		抽象修饰符：abstract
+		
+	类：
+		权限修饰符：默认修饰符，public ,
+		状态修饰符：static ， final
+		抽象修饰符：abstract
+		
+		用的最多的是：public；
+	成员变量：
+		权限修饰符：private ，默认的， protected ， public
+		状态修饰符：static ， final 
+		
+		用的最多的是：private
+	
+	构造方法：
+		权限修饰符：private ，默认的， protected ， public
+		状态修饰符：无
+		抽象修饰符：无
+		
+		用的最多的是：public
+		
+	成员方法：
+		权限修饰符：private ，默认的， protected ， public
+		状态修饰符：static，final
+		抽象修饰符：abstract
+		
+		用的最多是：public
+	
+	
+	除此之外的组合规则：
+		成员变量：public static final
+		成员方法：public static 
+				：public abstract
+				  public final
+*/
