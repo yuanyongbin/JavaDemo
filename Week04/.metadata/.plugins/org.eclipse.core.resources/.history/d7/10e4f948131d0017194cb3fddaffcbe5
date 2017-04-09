@@ -1,0 +1,11 @@
+package cn.itcast_04;
+
+import cn.itcast_03.Demo;
+
+public class StudentDemo {
+	public static void main(String[] args) throws CloneNotSupportedException{
+
+		Student s = new Student();
+		Object s2 = s.clone();
+	}
+}

@@ -1,0 +1,29 @@
+package cn.itcast;
+
+/*
+ * object :类 Object 是类层次结构的根类。每个类都使用 Object 作为超类。所有对象（包括数组）都实现这个类的方法。 
+ */
+public class StudentDemo {
+	public static void main(String[] args){
+		Student s = new Student();
+		System.out.println(s.hashCode());
+		Student s2 = new Student();
+		System.out.println(s2.hashCode());
+		Student s3 = new Student();
+		System.out.println(s3.hashCode());
+		Student s4 = s;
+		System.out.println(s4.hashCode());
+		
+		System.out.println("------------------------");
+		Student s5 = new Student();
+		Class c = s5.getClass();
+		String str = c.getName();
+		System.out.println(str);
+		System.out.println("-----------------------");
+		Student s6 = new Student();
+		String st2 = s6.getClass().getName();
+		System.out.println(str2);
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package cn.itcast_03;
+
+public class StudentDemo {
+	public static void main(String[] args){
+		Student s= new Student("林青霞",27);
+		Student s2 = new Student("李泽玮",22);
+		Student s3 = new Student("王嘉伟",23);
+		
+		System.out.println(s.equals(s2));
+		System.out.println("------------------");
+		Demo d = new Demo();
+		System.out.println(s.equals(d));
+		
+	}
+}

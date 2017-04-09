@@ -1,0 +1,39 @@
+package cn.itcast_03;
+
+import com.sun.org.apache.xml.internal.serializer.ToStream;
+
+public class Student {
+	String name;
+	int age;
+	public Student(){}
+	public Student(String name,int age){
+		this.name = name;
+		this.age = age;
+	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	public String getName(){
+		return name;
+	}
+	public void SetAge(int age){
+		this.age = age;
+	}
+	public int getAge(){
+		return age;
+	}
+	
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		Student s = (Student)obj;
+		if(this.name.equals(s.name) && this.age == s.age){
+			return true;
+		}else{
+			return false;
+		}
+		
+	}
+	
+
+}
