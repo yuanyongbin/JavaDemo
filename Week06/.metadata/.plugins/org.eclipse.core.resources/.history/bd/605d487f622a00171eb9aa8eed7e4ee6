@@ -1,0 +1,15 @@
+package cn.itcast_02;
+
+public class StringBufferDemo {
+	public static void main(String[] args){
+		StringBuffer sb = new StringBuffer();
+		StringBuffer sb2 = sb.append("Hello");
+		System.out.println("sb : " + sb);
+		System.out.println("sb2 : " + sb2); 
+		
+		sb.append("hello");
+		sb.append(13).apeend(12.3);
+		System.out.println("sb : " + sb);
+	}
+
+}
