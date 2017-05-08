@@ -1,0 +1,32 @@
+package cn.itcast_02;
+//选择排序
+
+public class ArrayDemo {
+	public static void main(String[] args){
+		//定义一个数组
+		int[] arr = {24,69,88,44,13};
+		//遍历数组
+		System.out.println("排序前");
+		printArray(arr);
+		//排序主体
+		for(int x = 0;x < arr.length;x++){
+			for(int y = x;y < arr.length - 1; y++){
+				if(arr[x] > arr[y + 1]){
+					int temp;
+					temp = arr[x];
+					arr[x] = arr[y+1];
+					arr[y+1] = temp;					
+				}			
+			}
+		}
+		printArray(arr);
+	}
+	//遍历功能：
+		public static void printArray(int[] arr){
+			System.out.print("[ ");
+			for(int x = 0;x < arr.length;x++){
+				System.out.print(arr[x] + ", ");
+			}
+			System.out.println("]");
+		}
+}

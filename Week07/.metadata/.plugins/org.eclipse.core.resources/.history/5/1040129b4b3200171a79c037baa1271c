@@ -1,0 +1,32 @@
+package it.itcast_01;
+//冒泡排序
+public class ArrayDemo {
+	public static void main(String[] args){
+		//定义一个数组
+		int[] arr = {24,69,88,44,13};
+		printArray(arr);
+		
+		//第一次比较：
+		for(int i = 0;i<arr.length;i++){
+			for(int j = i+1;j <arr.length - i; j++){
+				int ar; 
+				if(arr[i] > arr[j]){
+					ar = arr[i];
+					arr[i] = arr[j];
+					arr[j] = ar;
+				}
+				
+			}
+		}
+		printArray(arr);
+	}
+	
+	//遍历功能：
+	public static void printArray(int[] arr){
+		System.out.print("[ ");
+		for(int x = 0;x < arr.length;x++){
+			System.out.print(arr[x] + ", ");
+		}
+		System.out.println("]");
+	}
+}

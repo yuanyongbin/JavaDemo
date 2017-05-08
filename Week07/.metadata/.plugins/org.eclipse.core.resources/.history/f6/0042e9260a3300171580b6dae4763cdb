@@ -1,0 +1,14 @@
+package cn.itcast;
+//Integer 构造方法
+public class IntegerDemo {
+	public static void main(String[] args){
+		int i = 100;
+		Integer ii = new Integer(i);
+		
+		System.out.println("ii :" + ii);
+		
+		String a = "100";
+		Integer aa = new Integer(a);
+		System.out.println("aa" + aa);
+	}
+}

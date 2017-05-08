@@ -1,0 +1,14 @@
+package cn.itcast_02;
+/*
+ * JDK5 的新特性
+ * 自动装箱；把基本类型转换为包装类类型
+ * 自动拆箱：把包装类类型装环为基本类型
+ * 
+ */
+public class IntegerDemo {
+		public static void main(String[] args){
+		Integer ii = 100;
+		ii += 200;
+		System.out.println("ii :" + ii);
+	}
+}

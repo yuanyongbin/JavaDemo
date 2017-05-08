@@ -1,0 +1,33 @@
+package cn.itcast_03;
+
+public class ArrayTest {
+	public static void main(String[] args){
+		//定义一个字符串
+		String sb = "ILoveYou";
+		
+		//把字符串转成字符数组
+		char[] chs = sb.toCharArray();
+		
+		//把字符串进行排序
+		bubbleSort(chs);
+		
+		//排序完成转成字符串
+		String result  = String.valueOf(chs);
+		
+		//输出
+		System.out.println(result);
+	}
+	
+	
+	public static void bubbleSort(char[] chs){
+		for(int x = 0;x<chs.length;x++){
+			for(int y = 0;y <chs.length -1-x;y++){
+				if(chs[y] > chs[y+1]){
+					char temp = chs[y];
+					chs[y] = chs[y+1];
+					chs[y+1] = temp;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package it.itcast_01;
+//冒泡排序
+public class ArrayDemo {
+	public static void main(String[] args){
+		//定义一个数组
+		int[] arr = {24,69,88,44,13};
+		println(arr);
+	}
+	
+	//遍历功能：
+	public static void println(int[] arr){
+		System.out.print("[ ");
+		for(int x = 0;x < arr.length;x++){
+			System.out.print(arr[x] + " ");
+		}
+	}
+}
