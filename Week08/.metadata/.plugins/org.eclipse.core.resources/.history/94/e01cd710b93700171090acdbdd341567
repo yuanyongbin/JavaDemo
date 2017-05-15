@@ -1,0 +1,44 @@
+package cn.itcast_03;
+
+import java.util.Arrays;
+//练习
+
+/*
+ * 我有如下一个字符串："91 27 46 38 50"
+ * 最终输出结果是："27 38 46 50 91"
+ */
+public class ReGexDemo_04 {
+	public static void main(String[] args) {
+		String str = "91 27 46 38 50";
+		String reger = " ";
+		String[] strArray = str.split(reger);
+		int[] arr = new int[strArray.length];
+		for(int x =0 ;x<strArray.length;x++){
+			arr[x] = Integer.parseInt(strArray[x]);
+		}
+		Arrays.sort(arr);
+		
+		StringBuffer sb = new StringBuffer();
+		for(int x = 0;x < arr.length;x++){
+			sb.append(arr[x]).append(' ');
+		}
+		
+		String result = sb.toString().trim();
+		
+		System.out.println(reger);
+		
+	}
+	
+	public static void ArraySort(int[] arr){
+		for(int x = 0;x < arr.length;x++){
+			for(int y = x;y < arr.length - 1; y++){
+				if(arr[x] > arr[y + 1]){
+					int temp;
+					temp = arr[x];
+					arr[x] = arr[y+1];
+					arr[y+1] = temp;					
+				}			
+			}
+		}
+	}
+}

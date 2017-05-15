@@ -1,0 +1,21 @@
+package cn.itcast_03;
+/*
+ * 分割功能：
+ * 		public String[] split(String regex)根据给定正则表达式的匹配拆分此字符串。
+ */
+public class ReGexDemo_02 {
+	public static void main(String[] args) {
+		//定义一个年龄搜索范围：
+		String ages = "18-24";
+		
+		//定义规则：
+		String reges = "-";
+		//调用方法：
+		String[] ageArray = ages.split(reges);
+		
+		for(int x = 0;x < ageArray.length;x++){
+			System.out.println(ageArray[x]);
+		}
+	}
+
+}

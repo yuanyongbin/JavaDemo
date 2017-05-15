@@ -1,0 +1,25 @@
+package cn.math;
+
+import java.util.Scanner;
+
+//如何获取任意范围内的随机数
+public class MathDemo {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输如开始数");
+		int start = sc.nextInt();
+		System.out.println("请输如结尾数");
+		int end = sc.nextInt();
+
+		;
+		for (int x = 0; x < 100; x++) {
+			System.out.println(getRandm(start, end));
+		}
+	}
+
+	public static int getRandm(int start, int end) {
+		int ran = (int) (Math.random() * (end - start + 1)) + start;
+		return ran;
+
+	}
+}

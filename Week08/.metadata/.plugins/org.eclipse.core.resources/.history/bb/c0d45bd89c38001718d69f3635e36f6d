@@ -1,0 +1,13 @@
+package cn.system;
+
+//终止Java虚拟机
+
+public class exitDemo {
+	public static void main(String[] args) {
+		System.out.println("我们喜欢林青霞");
+		System.exit(0);
+		System.out.println("我不喜欢东方不败");
+		
+		
+	}
+}

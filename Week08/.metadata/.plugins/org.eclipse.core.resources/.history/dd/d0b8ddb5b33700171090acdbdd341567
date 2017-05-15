@@ -1,0 +1,24 @@
+package cn.itcast_03;
+//分割功能
+
+public class ReGexDemo_03 {
+	public static void main(String[] args) {
+		//定义字符串：
+		String str = "aa,bb,cc";		
+		String regex = ",";
+		String[] strs = str.split(regex);		
+		for(int x = 0;x< strs.length;x++){
+			System.out.println("strs : " + strs[x]);
+		}
+		
+		System.out.println("------------------------------");
+		
+		String str1 = "aa.bb.cc";		
+		String regex1 = "\\.";
+		String[] strs1 = str.split(regex);		
+		for(int x = 0;x< strs1.length;x++){
+			System.out.println("strs1 : " + strs1[x]);
+		}
+	}
+	
+}

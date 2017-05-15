@@ -1,0 +1,19 @@
+package cn.itcast_03;
+//分割功能
+
+public class ReGexDemo_03 {
+	public static void main(String[] args) {
+		//定义字符串：
+		String str = "aa,bb,cc";
+		
+		String regex = ",";
+		
+		//调用功能：
+		String[] strs = str.split(regex);
+		
+		for(int x = 0;x< strs.length;x++){
+			System.out.println("strs : " + strs[x]);
+		}
+	}
+	
+}
