@@ -1,0 +1,15 @@
+package cn.BigInteger;
+/*
+ * BigInteger 类
+ * 
+ * 构造方法：
+ * 		BigInteger(String val) 	
+ */
+public class BigIntegerDemo {
+	public static void main(String[] args) {
+		Integer i = new Integer(100);
+		System.out.println(i);
+		Integer ii = new Integer(Integer.MAX_VALUE);
+		System.out.println(ii);
+	}
+}

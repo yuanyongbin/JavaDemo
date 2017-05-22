@@ -1,0 +1,10 @@
+package cn.ArrayStuent;
+//创建一个学生类
+public class ArrayStudent {
+	//成员变量
+	String name;
+	int age;
+	
+	//构造方法；
+	
+}

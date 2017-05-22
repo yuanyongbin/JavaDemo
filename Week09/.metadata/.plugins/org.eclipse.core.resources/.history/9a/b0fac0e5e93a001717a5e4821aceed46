@@ -1,0 +1,16 @@
+package cn.Date;
+
+import java.util.Date;
+
+//DateUtil 工具类的测试：
+
+public class DateUtilDemo {
+	public static void main(String[] args) {
+		//创建日期对象：
+		Date d = new Date();
+		String s = "yyyy年MM月dd日 HH:mm:ss";
+		String ss = DateUtil.dataToString(d, s);
+		System.out.println(ss);
+		
+	}
+}

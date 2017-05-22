@@ -1,0 +1,9 @@
+package cn.BigDecimal;
+
+public class BigDecimalDemo {
+	public static void main(String[] args) {	
+		float a = (float)0.09;
+		float b = (float)0.01;
+		System.out.println(a+b);
+	}
+}

@@ -1,0 +1,14 @@
+package cn.作业;
+
+
+public class Village {
+	public static int  wawaterAmount = 100;
+	public void Use(int x){
+		wawaterAmount -= x;
+	}
+	public void show(){
+		System.out.println("井水一共有100还剩下： " + wawaterAmount );
+	}
+
+	
+}

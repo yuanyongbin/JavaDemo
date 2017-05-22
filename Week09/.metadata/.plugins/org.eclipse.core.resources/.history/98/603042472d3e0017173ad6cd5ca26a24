@@ -1,0 +1,22 @@
+package cn.作业;
+/*
+ * 2.	编写程序模拟两个村庄共用同一口井水。编写一个Village类，
+ * 		该类有一个静态的int类型的成员变量waterAmount,用于模拟井水的水量，
+ * 		在主类Land的main()方法中创建两个村庄，一个村庄改变waterAmount的值，
+ * 		另一个村庄查看waterAmount的值
+ * 
+ */
+
+public class Village {
+	private static int  wawaterAmount = 100;
+	public static void Use(int x){
+		wawaterAmount -= x;
+	}
+	public void show(){
+		System.out.println("井水一共有100还剩下： " + getWawaterAmount() );
+	}
+	public static int getWawaterAmount() {
+		return wawaterAmount;
+	}
+	
+}

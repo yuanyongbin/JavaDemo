@@ -1,0 +1,38 @@
+package cn.Date;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
+
+/*
+ *  Date  --  String（格式化）
+ *  
+ *  String --  Date（解析）
+ *  
+ *  FormatDateFormat 
+ *  	是日期/时间格式化子类的抽象类，它以与语言无关的方式格式化并解析日期或时间。
+ *  	日期/时间格式化子类（如 SimpleDateFormat）允许进行格式化（也就是日期 -> 文本）、
+ *  	解析（文本-> 日期）和标准化。（由于该类是抽象类，所以必须使用具体的子类：SimpleDateFormat）
+ *  	SimpleDateFormat 的构造方法
+ *  		SimpleDateFormat() ：默认模式
+ *			SimpleDateFormat(String pattern)：给定模式 
+ *
+ *  
+ */
+public class DateDemo_03 {
+	public static void main(String[] args) {
+		//Date -- String 
+		//创建日期
+		
+		Date d = new Date();
+		//创建格式化对象：(默认模式）
+		SimpleDateFormat sdf = new SimpleDateFormat();
+		String s = sdf.format(d);
+		System.out.println(s);
+		//创建格式化对象：（给定模式）
+		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+		String s1 = sdf1.format(d);
+		System.out.println(s);
+	}
+}

@@ -1,0 +1,17 @@
+package cn.Data;
+
+import java.util.Date;
+
+
+
+
+//Date类 ：表示特定的时间，精确到毫秒
+
+
+public class DataDemo {
+	public static void main(String[] args) {
+		Date d = new Date();
+		
+		
+	}
+}
