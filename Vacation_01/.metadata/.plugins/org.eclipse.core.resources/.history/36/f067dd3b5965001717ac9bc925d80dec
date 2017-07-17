@@ -1,0 +1,16 @@
+package shu;
+
+public class DoubleDemo {
+	public static void main(String[] args) {
+		System.out.println(2-1.1);
+		System.out.println("\u0023 + \u0023");
+		
+		//int n = 123456789;
+		//float nb = n;
+		//System.out.println(nb);
+		String greeting = "Hello";
+		int n = greeting.length();
+		int cpCout =greeting.codePointCount(0, greeting.length());
+		System.out.println(n +" " + cpCout);
+	}
+}
