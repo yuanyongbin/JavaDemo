@@ -1,0 +1,11 @@
+package pair1;
+
+public class PairTEst_02 {
+	public static  void main(String[] args) {
+		Pair<String> a = new Pair();
+//		if(a instanceof Pair<T>){
+//			System.out.println("a是Pair<Stirng>的对象");
+//		}
+		System.out.println(a.getClass());
+	}
+}

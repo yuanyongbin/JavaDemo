@@ -1,0 +1,11 @@
+package pair1;
+
+import java.time.LocalDate;
+
+public class DataIterval extends Pair<LocalDate> {
+	public void getSecond (LocalDate second){
+		if(second.compareTo(this.getFirst()) >= 0){
+			super.setSecond(second);
+		}
+	}
+}

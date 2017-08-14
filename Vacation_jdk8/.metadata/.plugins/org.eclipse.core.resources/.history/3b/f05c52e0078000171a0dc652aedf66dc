@@ -1,0 +1,16 @@
+package pair1;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class PairTest_01 {
+	public static void main(String[] args) {
+		DateTimeFormatter ymd = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		LocalDate ld = LocalDate.parse("2015-11-23", ymd);
+		DataIterval interval = new DataIterval();
+		Pair<LocalDate> pair = interval;
+		pair.setSecond(ld);
+	}
+}
+
+

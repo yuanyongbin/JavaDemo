@@ -1,0 +1,8 @@
+package pair1;
+
+public class PairTest_06 {
+	public static void main(String[] args) {
+		Pair<String> pair = Pair.makePair(String.class);
+	}
+	
+}

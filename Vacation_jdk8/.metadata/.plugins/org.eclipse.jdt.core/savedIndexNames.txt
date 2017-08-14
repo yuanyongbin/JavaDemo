@@ -1,0 +1,20 @@
+INDEX VERSION 1.127+E:\code\JavaDemo\Vacation_jdk8\.metadata\.plugins\org.eclipse.jdt.core
+3707972394.index
+1109682660.index
+502507377.index
+1903810818.index
+1609262872.index
+2407596596.index
+2088818543.index
+3510019055.index
+2485600648.index
+3590057107.index
+1363108577.index
+3543316672.index
+1681262937.index
+895917217.index
+1470873475.index
+3255161096.index
+3524918052.index
+3142210545.index
+2926400303.index

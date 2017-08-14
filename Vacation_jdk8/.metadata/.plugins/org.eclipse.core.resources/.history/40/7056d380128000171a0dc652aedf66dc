@@ -1,0 +1,16 @@
+package pair1;
+
+import java.util.Collection;
+
+public class PairTest_04 {
+	public static void main(String[] args) {
+		Collection<Pair<String>> table = ;
+		Pair<String> pair1 = new Pair();
+		Pair<String> pair2 = new Pair();
+		Pair<String> pair3 = new Pair();
+		addAll(table,pair1,pair2,pair3);
+	}
+	public static <T> void addAll (Collection<T> coll,T... ts){
+		for(T t:ts) coll.add(t);
+	}
+}
