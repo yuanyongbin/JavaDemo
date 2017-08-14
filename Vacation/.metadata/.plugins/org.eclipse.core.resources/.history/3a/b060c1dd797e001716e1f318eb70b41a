@@ -1,0 +1,10 @@
+package loggerDemo;
+
+import java.util.logging.Logger;
+
+public class LoggerDemo {
+	public static void main(String[] args) {
+		String loggerName = "logername";
+		Logger logger = Logger.getLogger(loggerName , "com");
+	}
+}
