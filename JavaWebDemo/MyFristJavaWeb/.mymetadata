@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MyFristJavaWeb"
+  id="myeclipse.1503801040985"
+  context-root="/MyFristJavaWeb"
+  j2ee-spec="5.0"
+  archive="MyFristJavaWeb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
